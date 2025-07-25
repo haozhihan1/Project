@@ -1,0 +1,5 @@
+CREATE TABLE questions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    content TEXT NOT NULL,
+    options TEXT NOT NULL
+);
